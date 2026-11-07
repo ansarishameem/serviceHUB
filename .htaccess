@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(servicehub\.sql|\.env(\..*)?|composer\.(json|lock))$">
+    Require all denied
+</FilesMatch>
